@@ -1,0 +1,33 @@
+name: PlayerPassport
+version: '${version}'
+main: com.lanmain.passport.PlayerPassport
+api-version: '1.21'
+description: Плагин паспорта игрока для RP серверов
+author: LanMain
+website: https://lanmain.com
+
+commands:
+  passport:
+    description: Управление паспортом игрока
+    usage: /<command> [create|<ник игрока>]
+    aliases: [pass, паспорт]
+
+permissions:
+  passport.use:
+    description: Просмотр своего паспорта
+    default: true
+  passport.create:
+    description: Создание паспорта
+    default: true
+  passport.view.others:
+    description: Просмотр паспорта других игроков
+    default: true
+  passport.admin:
+    description: Административные команды паспорта
+    default: op
+  passport.admin.delete:
+    description: Удаление паспорта игрока
+    default: op
+  passport.admin.edit:
+    description: Редактирование паспорта игрока
+    default: op

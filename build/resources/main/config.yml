@@ -1,0 +1,83 @@
+# ============================================
+# PlayerPassport - Конфигурация
+# ============================================
+
+# Настройки хранения данных
+storage:
+  # Тип хранения: yaml или sqlite
+  type: yaml
+  # Путь к базе данных SQLite (если используется)
+  sqlite-file: passports.db
+
+# Настройки паспорта
+passport:
+  # Заголовок GUI
+  gui-title: "§6§l✦ ПАСПОРТ ✦"
+  
+  # Включить звуки
+  sounds-enabled: true
+  
+  # Максимальная длина полей
+  max-field-length:
+    name: 32
+    height: 10
+    weight: 10
+    race: 32
+    role: 32
+
+# Доступные варианты пола
+genders:
+  - "Мужской"
+  - "Женский"
+  - "Другое"
+
+# Доступные расы (для RP)
+races:
+  - "Человек"
+  - "Эльф"
+  - "Гном"
+  - "Орк"
+  - "Полуэльф"
+  - "Дворф"
+  - "Другое"
+
+# Доступные роли (для RP)
+roles:
+  - "Воин"
+  - "Маг"
+  - "Торговец"
+  - "Ремесленник"
+  - "Охотник"
+  - "Целитель"
+  - "Странник"
+  - "Другое"
+
+# Настройки внешнего вида GUI
+gui:
+  # Размер инвентаря (9, 18, 27, 36, 45, 54)
+  size: 54
+  
+  # Материалы для элементов GUI
+  materials:
+    background: BLACK_STAINED_GLASS_PANE
+    player-head: PLAYER_HEAD
+    info-book: WRITTEN_BOOK
+    gender-icon: ARMOR_STAND
+    date-icon: CLOCK
+    height-icon: ARROW
+    weight-icon: IRON_INGOT
+    race-icon: TOTEM_OF_UNDYING
+    role-icon: DIAMOND_SWORD
+    close-button: BARRIER
+    edit-button: WRITABLE_BOOK
+    confirm-button: LIME_WOOL
+    cancel-button: RED_WOOL
+
+# Цвета для текста
+colors:
+  primary: "§6"
+  secondary: "§e"
+  accent: "§b"
+  error: "§c"
+  success: "§a"
+  info: "§7"

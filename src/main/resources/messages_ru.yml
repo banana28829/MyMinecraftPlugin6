@@ -1,0 +1,75 @@
+# ============================================
+# PlayerPassport - Локализация (Русский)
+# ============================================
+
+prefix: "§6[Паспорт] §r"
+
+# Общие сообщения
+messages:
+  no-permission: "§cУ вас нет прав на выполнение этой команды!"
+  player-only: "§cЭта команда доступна только для игроков!"
+  player-not-found: "§cИгрок не найден!"
+  passport-not-found: "§cУ этого игрока нет паспорта!"
+  your-passport-not-found: "§cУ вас нет паспорта! Используйте §e/passport create §cдля создания."
+  
+  # Создание паспорта
+  passport-created: "§aПаспорт успешно создан!"
+  passport-already-exists: "§cУ вас уже есть паспорт!"
+  passport-creation-cancelled: "§eСоздание паспорта отменено."
+  
+  # Редактирование
+  passport-updated: "§aПаспорт успешно обновлён!"
+  passport-deleted: "§aПаспорт удалён!"
+  
+  # GUI
+  click-to-select: "§eНажмите для выбора"
+  click-to-edit: "§eНажмите для редактирования"
+  click-to-close: "§cНажмите для закрытия"
+  
+  # Подсказки
+  enter-height: "§eВведите ваш рост (например: 180 см):"
+  enter-weight: "§eВведите ваш вес (например: 75 кг):"
+  input-cancelled: "§eВвод отменён."
+  invalid-input: "§cНеверный ввод! Попробуйте снова."
+
+# Названия полей паспорта
+fields:
+  nickname: "§6Никнейм"
+  uuid: "§6UUID"
+  gender: "§6Пол"
+  created-date: "§6Дата создания"
+  height: "§6Рост"
+  weight: "§6Вес"
+  race: "§6Раса"
+  role: "§6Роль/Класс"
+
+# GUI элементы
+gui:
+  title: "§6§l✦ ПАСПОРТ ✦"
+  title-create: "§6§l✦ СОЗДАНИЕ ПАСПОРТА ✦"
+  title-edit: "§6§l✦ РЕДАКТИРОВАНИЕ ✦"
+  title-select-gender: "§6Выберите пол"
+  title-select-race: "§6Выберите расу"
+  title-select-role: "§6Выберите роль"
+  
+  buttons:
+    close: "§c✖ Закрыть"
+    confirm: "§a✔ Подтвердить"
+    cancel: "§c✖ Отмена"
+    edit: "§e✎ Редактировать"
+    back: "§7◄ Назад"
+    next: "§7Далее ►"
+
+# Формат даты
+date-format: "dd.MM.yyyy HH:mm"
+
+# Справка по команде
+help:
+  header: "§6§l=== Паспорт - Справка ==="
+  commands:
+    - "§e/passport §7- Открыть свой паспорт"
+    - "§e/passport create §7- Создать паспорт"
+    - "§e/passport <ник> §7- Посмотреть паспорт игрока"
+    - "§e/passport edit §7- Редактировать свой паспорт"
+    - "§e/passport delete §7- Удалить свой паспорт (admin)"
+    - "§e/passport reload §7- Перезагрузить конфиг (admin)"
